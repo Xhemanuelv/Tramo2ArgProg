@@ -74,6 +74,7 @@ public class Alumno {
         }
     }
 
+    //Metodo agregado para visualizacion, no incluido en diagrama clase
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
