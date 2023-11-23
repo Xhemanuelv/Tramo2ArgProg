@@ -29,11 +29,11 @@ public class Correlativas {
         alumno.inscribirMateria(mat2);
         alumno.inscribirMateria(mat3);
 
-        // Aprobar la materia correlativa necesaria
+        // Aprobar materias
         alumno.aprobarMateria(mat1);
         alumno.aprobarMateria(mat2);
 
-        // Intentar inscribir al alumno en una materia con correlativa desaprobada
+        // Intentar inscribir al alumno en una materia con correlativa desaprobada y aprobada
         alumno.inscribirMateria(matCorrelativaAprobada);
         alumno.inscribirMateria(matCorrelativaDesaprobada);
         System.out.println(alumno.toString());
